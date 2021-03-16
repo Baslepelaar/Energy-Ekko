@@ -15,7 +15,7 @@
 <body>
     <header>
         <article id="logo">
-            <img src="images/logo.png" alt="">
+            <img src="images/logo.png" alt="Ekko">
         </article>
         <nav id="navigatie">
             <ul>
