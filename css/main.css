@@ -46,7 +46,6 @@
 }
 /* desktop */
 @media screen and (min-width: 769px) {
-  /* Header */
   header {
     background-color: #001E3C;
     width: 100%;
@@ -88,7 +87,6 @@
     text-decoration: none;
   }
 
-/* Footer */
   footer {
 
   }
@@ -121,7 +119,6 @@
     background-color: #001E3C;
   }
 
-/* Over ons */
   .main-tekst {
     display: flex;
     padding-left: 5%;
