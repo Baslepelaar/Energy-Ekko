@@ -51,7 +51,21 @@
             </div>
         </section>
         <section id="articles">
-
+            <section>
+                <article><img src="" alt="test"></article>
+                <article><img src="" alt="test"></article>
+                <article><img src="" alt="test"></article>
+            </section>
+            <section>
+                <article><img src="" alt="test"></article>
+                <article><img src="" alt="test"></article>
+                <article><img src="" alt="test"></article>
+            </section>
+            <section>
+                <article><img src="" alt="test"></article>
+                <article><img src="" alt="test"></article>
+                <article><img src="" alt="test"></article>
+            </section>
         </section>
     </main>
     <footer>

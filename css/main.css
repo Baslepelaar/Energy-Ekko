@@ -110,6 +110,11 @@
     height:13px;width:13px;padding:
   }
 
+  #articles {
+    display: flex;
+    flex-direction: row;
+  }
+
   #h-drie-blikjes img:nth-child(1) {-ms-flex: 2; flex: 2;}
   #h-drie-blikjes img:nth-child(2) {-ms-flex: 2; flex: 2;}
   #h-drie-blikjes img:nth-child(3) {-ms-flex: 2; flex: 2;}
