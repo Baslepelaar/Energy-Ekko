@@ -9,8 +9,8 @@
 	<meta name="keywords" content="">
 	
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="core/js/script.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- <script src="core/js/script.js" type="text/javascript"></script> -->
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
 
 	<title>Ekko Energy</title>
 	</head>
@@ -36,35 +36,36 @@
             <img src="images/can goldmode home.png" alt="Goldmode">
             <img src="images/can sugar free home.png" alt="Sugar Free">
         </section>
-        <section id="slide-show">
-            <div class="w3-content w3-display-container" style="max-width:800px">
-                <img class="slidShow" src="images/can strawbeerries home.png" style="width:100%">
-                <img class="slideShow" src="images/can goldmode home.png" style="width:100%">
-                <img class="slideShow" src="images/can sugar free home.png" style="width:100%">
-                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-                    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-                </div>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="images/can vegan.png" style="width:100%">
             </div>
-        </section>
+
+            <div class="mySlides fade">
+                <img src="images/can strawbeerries.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/can ijskoffie.png" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+
         <section id="articles">
             <section>
                 <article><img src="" alt="test"></article>
-                <article><img src="" alt="test"></article>
-                <article><img src="" alt="test"></article>
+                <article><img src="images/can ultrachoco.png" alt="Ultrachoco"></article>
+                <article><img src="images/can goldmode.png" alt="Goldmode"></article>
             </section>
             <section>
                 <article><img src="" alt="test"></article>
                 <article><img src="" alt="test"></article>
-                <article><img src="" alt="test"></article>
-            </section>
-            <section>
-                <article><img src="" alt="test"></article>
-                <article><img src="" alt="test"></article>
-                <article><img src="" alt="test"></article>
+                <article><img src="images/mercedes 1.png" alt="Mercedes F1"></article>
             </section>
         </section>
     </main>
@@ -76,5 +77,34 @@
             <p><a href="#">FAQ</a></p>
         </article>
     </footer>
+
+    <script>
+        var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+    </script>
 </body>
 </html>
