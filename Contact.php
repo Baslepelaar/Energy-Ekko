@@ -18,10 +18,10 @@
 
  
 
-<body>
+<body class="ContactBody">
 <header>
         <article id="logo">
-            <img src="images/logo.png" alt="">
+            <img src="images/logo.png" alt="Logo">
         </article>
         <nav id="navigatie">
             <ul>
@@ -43,7 +43,7 @@
         <form action="#" class="item-contact">
           <h1 class="item-h1">Contact</h1>
         <table>
-          <p><br><br><br><br></p>
+          
           
     
           <tr>
@@ -76,28 +76,33 @@
           <tr>
               <td><input  class="item-8" type="text" name="opmerking" placeholder=" heeft u nog een opmerking?" required></td>
           </tr>
-    
+          
         </table>
 
-        <section>
-            <img class="item-energyStrawberry" src="images/strawberry.png" alt="Ekko energy strawberry">
-        </section>
-    
+      
     
             <article class="voorwaarden">
               <a href="#">Akkoord met privacy voorwaarden</a>
     
-              <input class="item-15" type="checkbox" name="akkoord" value="akkoord" required>
+              <input type="checkbox" name="akkoord" value="akkoord" required>
             </article>
           <section>
           <input class="item-button" type="button" value="verzenden">
-    
+          
           </section>
         </form>
 
-        <iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2448.332937167458!2d4.490215115761184!3d52.14645467974523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5c663d413a42f%3A0xcaddc0f3c590aca3!2smboRijnland!5e0!3m2!1snl!2snl!4v1606395383923!5m2!1snl!2snl%22" allowfullscreen>
-        </iframe>
+        <section class="item-Strawberry">
+        
+        <img class="item-Can" src="images/strawberry.png" alt="Strawberry Can">
+        </section>
 
+        <section id="maps">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2448.332937167458!2d4.490215115761184!3d52.14645467974523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5c663d413a42f%3A0xcaddc0f3c590aca3!2smboRijnland!5e0!3m2!1snl!2snl!4v1606395383923!5m2!1snl!2snl%22" allowfullscreen>
+        </iframe>
+        </section>
+        
     </main>
 
 
