@@ -9,8 +9,6 @@
 	<meta name="keywords" content="">
 	
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-    <!-- <script src="core/js/script.js" type="text/javascript"></script> -->
-    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
 
 	<title>Ekko Energy</title>
 	</head>
@@ -59,16 +57,13 @@
         <section id="articles">
             <section>
                 <article>
-                    <!-- <a href="details.php"> 
-                        <img src="images/duncan.jpg" alt="Duncan">
-                    </a> -->
                     <?php 
                         include 'core/dbconnect.php';
 
                         $sql = "SELECT * FROM artiesten WHERE artiest_id LIKE '122'";
                         if ($result = $conn->query($sql)) {
                             while($row = $result->fetch_object()) {
-                                echo "<section class='aanbiedingen'><a href='details.php?id=".$row->artiest_id."'><img src='images/duncan.jpg' alt='Duncan'></a></section>";
+                                echo "<section class='aanbiedingen'><a href='detailsat.php?id=".$row->artiest_id."'><img src='images/duncan.jpg' alt='Duncan'></a></section>";
                             }
                             $result->close();
                         }
@@ -82,7 +77,7 @@
                         $sql = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id LIKE '1'";
                         if ($result = $conn->query($sql)) {
                             while($row = $result->fetch_object()) {
-                                echo "<section class='aanbiedingen'><a href='details.php?id=".$row->aanbiedingen_id."'><img src='images/can goldmode.png' alt='goldmode'></a></section>";
+                                echo "<section class='aanbiedingen'><a href='detailsab.php?id=".$row->aanbiedingen_id."'><img src='images/can goldmode.png' alt='goldmode'></a></section>";
                             }
                             $result->close();
                         }
@@ -97,7 +92,7 @@
                         $sql = "SELECT * FROM artiesten WHERE artiest_id LIKE '103'";
                         if ($result = $conn->query($sql)) {
                             while($row = $result->fetch_object()) {
-                                echo "<section class='aanbiedingen'><a href='details.php?id=".$row->artiest_id."'><img src='images/post.jpg' alt='Post Malone'></a></section>";
+                                echo "<section class='aanbiedingen'><a href='detailsat.php?id=".$row->artiest_id."'><img src='images/post.jpg' alt='Post Malone'></a></section>";
                             }
                             $result->close();
                         }
@@ -110,7 +105,7 @@
                         $sql = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id LIKE '2'";
                         if ($result = $conn->query($sql)) {
                             while($row = $result->fetch_object()) {
-                                echo "<section class='aanbiedingen'><a href='details.php?id=".$row->aanbiedingen_id."'><img src='images/can sugar free.png' alt='sugar free'></a></section>";
+                                echo "<section class='aanbiedingen'><a href='detailsab.php?id=".$row->aanbiedingen_id."'><img src='images/can sugar free.png' alt='sugar free'></a></section>";
                             }
                             $result->close();
                         }

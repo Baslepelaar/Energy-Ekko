@@ -14,7 +14,7 @@
     <?php
         include 'core/dbconnect.php';
 
-        $sql = "SELECT * FROM artiesten WHERE artist_id=" . $_GET['id'];
+        $sql = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id=" . $_GET['id'];
         if ($result = $conn->query($sql)) {
             $row = $result->fetch_object();
             echo "<section>" . $row->titel . "</section>";
