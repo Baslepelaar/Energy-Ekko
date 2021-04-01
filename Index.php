@@ -58,13 +58,64 @@
 
         <section id="articles">
             <section>
-                <article><img src="" alt="test"></article>
+                <article>
+                    <!-- <a href="details.php"> 
+                        <img src="images/duncan.jpg" alt="Duncan">
+                    </a> -->
+                    <?php 
+                        include 'core/dbconnect.php';
+
+                        $sql = "SELECT * FROM artiesten WHERE artiest_id LIKE '122'";
+                        if ($result = $conn->query($sql)) {
+                            while($row = $result->fetch_object()) {
+                                echo "<section class='aanbiedingen'><a href='details.php?id=".$row->artiest_id."'><img src='images/duncan.jpg' alt='Duncan'></a></section>";
+                            }
+                            $result->close();
+                        }
+                    ?>
+                </article>
                 <article><img src="images/can ultrachoco.png" alt="Ultrachoco"></article>
-                <article><img src="images/can goldmode.png" alt="Goldmode"></article>
+                <article>
+                    <?php 
+                        include 'core/dbconnect.php';
+
+                        $sql = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id LIKE '1'";
+                        if ($result = $conn->query($sql)) {
+                            while($row = $result->fetch_object()) {
+                                echo "<section class='aanbiedingen'><a href='details.php?id=".$row->aanbiedingen_id."'><img src='images/can goldmode.png' alt='goldmode'></a></section>";
+                            }
+                            $result->close();
+                        }
+                    ?> 
+                </article>
             </section>
             <section>
-                <article><img src="" alt="test"></article>
-                <article><img src="" alt="test"></article>
+                <article>
+                    <?php 
+                        include 'core/dbconnect.php';
+
+                        $sql = "SELECT * FROM artiesten WHERE artiest_id LIKE '103'";
+                        if ($result = $conn->query($sql)) {
+                            while($row = $result->fetch_object()) {
+                                echo "<section class='aanbiedingen'><a href='details.php?id=".$row->artiest_id."'><img src='images/post.jpg' alt='Post Malone'></a></section>";
+                            }
+                            $result->close();
+                        }
+                    ?>
+                </article>
+                <article>
+                    <?php 
+                        include 'core/dbconnect.php';
+
+                        $sql = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id LIKE '2'";
+                        if ($result = $conn->query($sql)) {
+                            while($row = $result->fetch_object()) {
+                                echo "<section class='aanbiedingen'><a href='details.php?id=".$row->aanbiedingen_id."'><img src='images/can sugar free.png' alt='sugar free'></a></section>";
+                            }
+                            $result->close();
+                        }
+                    ?> 
+                </article>
                 <article><img src="images/mercedes 1.png" alt="Mercedes F1"></article>
             </section>
         </section>

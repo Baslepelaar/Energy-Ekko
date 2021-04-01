@@ -10,7 +10,7 @@
 
     $host ="localhost";
     $user = "root";
-    $pass = "root";
+    $pass = "";
     $database = "energy";
 
     $conn = new mysqli($host, $user, $pass, $database);
@@ -19,21 +19,6 @@
         echo $conn->error;
 
     }
-
-    $sql = "SELECT * FROM gebruikers ";
-    $result = $conn->query($sql);
-
-    if($result){
-       while( $row = $result->fetch_row()){
-        echo $row[1];
-
-       }
-
-    }
-
-    $result->close();
-
-    $conn->close();
 
     ?>
 </body>
