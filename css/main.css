@@ -137,4 +137,36 @@
     width: 90%;
     margin-bottom: 5vh;
   }
+
+  #flex-product {
+    display: flex;
+    flex-direction: column;
+  }
+
+.Logo1 {
+  width: 300px;
+  height: 150px;
+  margin-left: 7vw;
+  margin-top: 9vh;
+}
+
+.Logo2 {
+  width: 300px;
+  height: 150px;
+  margin-left: 7vw;
+  margin-top: 3vh;
+}
+
+.Logo3 {
+  width: 300px;
+  height: 150px;
+  margin-left: 7vw;
+  margin-top: 3vh;
+}
+
+.flex-text {
+  display: flex;
+  
+}
+
 }

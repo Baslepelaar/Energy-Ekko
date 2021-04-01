@@ -37,9 +37,25 @@
 
 
     <main>
-    <section id>
+    <section id="flex-product">
 
+    <article>
+    <img class="Logo1" src="Images/EKKO_STRAWBEERRIES.png" alt="Ekko Strawberryt">
+    </article>
 
+    <article>
+    <img class="Logo2" src="Images/EKKO_ULTRACHOCO.png" alt="Ekko Choco">
+    </article>
+
+    <article>
+    <img class="Logo3" src="Images/EKKO_SUGAR_FREE.png" alt="Ekko sugar free">
+    </article>
+
+    <section class="flex-text">
+    <article>
+        <p><-- Hier links ziet u het logo voor 1 van onze producten. Wij maken meerdere energie drankjes waaronder de smaak EKKO STRAWBEERRIES. Onder strawberry ziet u nog 2 andere smaken. Als u geintresseerd bent in alle andere smaken dan kunt u de andere prodcuten vinden op (...)</p>
+    </article>
+    </section>
     </section>
       
 
