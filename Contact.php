@@ -39,7 +39,7 @@
     <main>
 
         
-    <section id="flex">
+    <section id="flex-contact">
         <form action="#" class="item-contact">
           <h1 class="item-h1">Contact</h1>
         <table>
