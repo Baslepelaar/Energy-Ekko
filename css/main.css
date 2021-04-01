@@ -11,9 +11,13 @@
   }
 
   #logo{
-    height: 65px;
-    margin-top: 1vh;
-    margin-left: 30vw;
+    height: 100px;
+    margin-left: 12vw;
+  }
+
+  .logo2{
+    height: 100px;
+    margin-left: 12vw;
   }
 
   footer{
@@ -42,6 +46,99 @@
     height:170px;
     background-color: #001E3C;
   }
+
+/* contact */
+
+.item-h1{
+  margin-top: 3vh;
+  margin-left: 15vw;
+  color: black;
+  }
+
+.item-contact{
+  display: grid;
+  margin-top: 5vh;
+  margin-left: 20vw;
+  border: 1px solid #001E3C;
+  background-color: grey;
+  width: 60vw;
+  height: 50vh;
+  border-radius: 20px;
+}
+
+.item-1{
+text-align: center;
+}
+
+.item-2{
+margin-left: 12vw;
+border-radius: 20px;
+width: 140px;
+}
+
+.item-3{
+text-align: center;
+}
+
+.item-4{
+  margin-left: 12vw;
+border-radius: 20px;
+width: 140px;
+}
+
+.item-5{
+text-align: center;
+}
+
+.item-6{
+  margin-left: 12vw;
+border-radius: 20px;
+width: 140px;
+}
+
+.item-7{
+text-align: center;
+}
+
+.item-8{
+  margin-left: 12vw;
+border-radius: 20px;
+width: 142px;
+}
+
+td {
+  color: black;
+}
+
+.voorwaarden {
+  margin-top: 2vh;
+  margin-left: 12vw;
+}
+
+.item-button{
+  margin-left: 21.5vw;
+}
+
+.item-Strawberry {
+  display: flex;
+
+}
+
+.item-Can {
+  width: 250px;
+  height: 250px;
+  margin-left: 20vw;
+  margin-top: 3vh;
+  border-radius: 20px;
+}
+
+iframe {
+  width: 250px;
+  height: 250px;
+  margin-left: 20vw;
+  margin-top: 3vh;
+  border-radius: 20px;
+}
 
 }
 /* desktop */
@@ -143,18 +240,17 @@
 
   /* Contact page */
 
-  .ContactBody {}
 
   .item-h1{
     margin-top: 3vh;
-    margin-left: 10vw;
+    margin-left: 11vw;
     color: black;
     }
 
   .item-contact{
     display: grid;
     margin-top: 15vh;
-    margin-left: 8vw;
+    margin-left: 13vw;
     border: 1px solid #001E3C;
     background-color: grey;
     width: 30vw;
@@ -208,32 +304,35 @@
   .voorwaarden {
     margin-top: 2vh;
     margin-left: 6.5vw;
-    
   }
 
   .item-button{
     margin-left: 12.5vw;
   }
 
-  .item-Strawberry {
-    float: right;
+  #flex {
+    display: flex;
     
   }
 
   .item-Can {
-    width: 100px;
-    height: 100px;
-    float: right;
+    width: 250px;
+    height: 250px;
+
   }
 
-  #maps {
-    
-    width: 200px;
-    height: 200px;
-    margin-left: 70vw;
+  iframe {
+    width: 250px;
+    height: 250px;
+    margin-top: 2vh;
   }
 
   .copyright{
     color: #BFBFBF;
+  }
+
+  #two{
+    margin-top: 8vh;
+    margin-left: 25vw;
   }
 }
