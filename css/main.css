@@ -7,13 +7,17 @@
 /* telefoon */
 @media screen and (min-width: 100px) and (max-width:768.9px){
   header{
-    background-color: #001E3C;
+    
   }
 
   #logo{
     height: 65px;
     margin-top: 1vh;
     margin-left: 30vw;
+  }
+
+  #navigatie{
+    display: none;
   }
 
   footer{

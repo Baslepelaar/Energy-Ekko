@@ -11,15 +11,17 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 
 	<title>Ekko Energy</title>
-	</head>
+</head>
 <body>
     <header>
         <article id="logo">
-            <img src="images/logo.png" alt="Ekko">
+            <a href="index.php">
+                <img src="images/logo.png" alt="Ekko">
+            </a>
         </article>
         <nav id="navigatie">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="#">Producten</a></li>
                 <li><a href="#">Evenementen</a></li>
                 <li><a href="#">Aanbiedingen</a></li>
