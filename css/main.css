@@ -1,22 +1,191 @@
 @charset "UTF-8";
-*{
+* {
   font-family: "Helvetica Neue";
   padding: 0;
   margin: 0;
 }
 /* telefoon */
 @media screen and (min-width: 100px) and (max-width:768.9px){
-  header{
-    
+  /* Header */
+  header {
+    background-image: url("../images/3 blikjes.png");
+    height: 70vh;
+    background-position: center;
   }
 
-  #logo{
-    height: 65px;
-    margin-top: 1vh;
+  .logo{
+    width: 2%;
+    /* margin-top: 1vh; */
     margin-left: 30vw;
   }
 
+  .logo img{
+    height: 65px;
+  }
+
   #navigatie{
+    display: none;
+  }
+
+  .menu-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+  .toggler{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 60px;
+    height: 60px;
+    z-index: 3;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .hamburger{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hamburger>div{
+    position: absolute;
+    width: 60%;
+    height: 3px;
+    border-radius: 1.5px;
+    background-color: #001E3C;
+    transition: .4s;
+  }
+
+  .hamburger>div:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    border-radius: 1.5px;
+    background-color: #001E3C;
+    top: -10px;
+    left: 0;
+    transition: .4s;
+  }
+
+  .hamburger>div:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    border-radius: 1.5px;
+    background-color: #001E3C;
+    top: 10px;
+    left: 0;
+    transition: .4s;
+  }
+
+  .toggler:checked + .hamburger>div{
+    transform: rotate(135deg);
+  }
+
+  .toggler:checked:hover + .hamburger>div{
+    transform: rotate(225deg);
+  }
+
+  .toggler:checked + .hamburger>div:before, .toggler:checked + .hamburger>div:after{
+    top: 0;
+    transform: rotate(90deg);
+  }
+
+  .menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    transition: .6s;
+  }
+
+  .menu > div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-150%) translateY(-50%);
+    width: 1600px;
+    height: 1600px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: .6s;
+  }
+
+  .menu > div > div{
+    max-width: 90vw;
+    max-height: 100vh;
+    opacity: 0;
+    transition: .6s;
+  }
+
+  .menu > div > div > ul > li{
+    list-style: none;
+  }
+
+  .menu > div > div > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: .5rem;
+    transition: .3s;
+    font-size: 1.8rem;
+    display: inline-block;
+  }
+
+  .toggler:checked ~ .menu{
+    visibility: visible;
+  }
+
+  .toggler:checked ~ .menu > div{
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .toggler:checked ~ .menu > div > div{
+    opacity: 1;
+  }
+
+  /* Home */
+  #h-drie-blikjes {
+    display: none;
+  }
+  
+  .slideshow-container {
+    display: none;
+  }
+
+  #articles section article {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #articles section article img {
+    width: 350px;
+    margin-top: 10vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+
+  .article-php {
     display: none;
   }
 
@@ -57,8 +226,11 @@
     display: flex;
   }
 
+  .menu-wrap {
+    display: none;
+  }
 
-  #logo {
+  .logo {
     width: 20%;
     justify-content: flex-start;
     margin-left: 12vw;
@@ -66,7 +238,7 @@
     margin-bottom: 1vh;
   }
 
-  #logo img{
+  .logo img{
     height: 65px;
   }
 
@@ -166,16 +338,40 @@
   #articles section {
     display: flex;
     flex-direction: row;
-    margin-top: 6vh;
   }
 
-  #articles section img {
-    width: 500px;
+  #articles section article img {
+    width: 350px;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 
   #h-drie-blikjes img:nth-child(1) {-ms-flex: 2; flex: 2;}
   #h-drie-blikjes img:nth-child(2) {-ms-flex: 2; flex: 2;}
   #h-drie-blikjes img:nth-child(3) {-ms-flex: 2; flex: 2;}
+
+  /* details artiest */
+  .images-at {
+    width: 5%;
+    margin-top: 3vh;
+    margin-left: 20vw;
+    position: relative;
+  }
+
+  .info {
+    position: absolute;
+  }
+
+  .info-at {
+    margin-top: 3vh;
+    margin-left: 2vw;
+  }
+
+  .info-ab {
+    margin-top: 3vh;
+    margin-left: 2vw;
+  }
 
 /* Footer */
   footer {
@@ -203,7 +399,6 @@
     flex-direction: row;
     margin-top: 5vh;
     text-align: center;
-    position: relative;
     bottom:0;
     width:100%;
     height:75px;

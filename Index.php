@@ -14,11 +14,28 @@
 </head>
 <body>
     <header>
-        <article id="logo">
-            <a href="index.php">
-                <img src="images/logo.png" alt="Ekko">
-            </a>
-        </article>
+        <div class="menu-wrap">
+  		    <input type="checkbox" class="toggler">
+  		    <div class="hamburger">
+  			    <div>
+                </div>
+  		    </div>
+            <div class="menu">
+  			    <div>
+  				    <div>
+						<ul>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="#">Producten</a></li>
+                            <li><a href="#">Evenementen</a></li>
+                            <li><a href="#">Aanbiedingen</a></li>
+                            <li><a href="#">Over Ons</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+  				    </div>
+  			    </div>
+  		    </div>
+  	    </div>
+
         <nav id="navigatie">
             <ul>
                 <li><a href="index.php">Home</a></li>
@@ -29,13 +46,23 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+        <article class="logo">
+            <a href="index.php">
+                <img src="images/logo.png" alt="Ekko">
+            </a>
+        </article>
     </header>
     <main>
-        <section id="h-drie-blikjes">
-            <img src="images/can strawbeerries home.png" alt="Strawbberries">
-            <img src="images/can goldmode home.png" alt="Goldmode">
-            <img src="images/can sugar free home.png" alt="Sugar Free">
-        </section>
+        <article>
+            <section id="h-drie-blikjes">
+                <img src="images/can strawbeerries home.png" alt="Strawbberries">
+                <img src="images/can goldmode home.png" alt="Goldmode">
+                <img src="images/can sugar free home.png" alt="Sugar Free">
+            </section>
+            <section>
+                
+            </section>
+        </article>
 
         <div class="slideshow-container">
 
@@ -65,13 +92,13 @@
                         $sql = "SELECT * FROM artiesten WHERE artiest_id LIKE '122'";
                         if ($result = $conn->query($sql)) {
                             while($row = $result->fetch_object()) {
-                                echo "<section class='aanbiedingen'><a href='detailsat.php?id=".$row->artiest_id."'><img src='images/duncan.jpg' alt='Duncan'></a></section>";
+                                echo "<section class='article-php'><a href='detailsat.php?id=".$row->artiest_id."'><img src='images/duncan.jpg' alt='Duncan'></a></section>";
                             }
                             $result->close();
                         }
                     ?>
                 </article>
-                <article><img src="images/can ultrachoco.png" alt="Ultrachoco"></article>
+                <article><img src="images/ultra choco home.png" alt="Ultrachoco"></article>
                 <article>
                     <?php 
                         include 'core/dbconnect.php';
@@ -79,7 +106,7 @@
                         $sql = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id LIKE '1'";
                         if ($result = $conn->query($sql)) {
                             while($row = $result->fetch_object()) {
-                                echo "<section class='aanbiedingen'><a href='detailsab.php?id=".$row->aanbiedingen_id."'><img src='images/can goldmode.png' alt='goldmode'></a></section>";
+                                echo "<section class='article-php'><a href='detailsab.php?id=".$row->aanbiedingen_id."'><img src='images/goldmode home.png' alt='goldmode'></a></section>";
                             }
                             $result->close();
                         }
@@ -94,7 +121,7 @@
                         $sql = "SELECT * FROM artiesten WHERE artiest_id LIKE '103'";
                         if ($result = $conn->query($sql)) {
                             while($row = $result->fetch_object()) {
-                                echo "<section class='aanbiedingen'><a href='detailsat.php?id=".$row->artiest_id."'><img src='images/post.jpg' alt='Post Malone'></a></section>";
+                                echo "<section class='article-php'><a href='detailsat.php?id=".$row->artiest_id."'><img src='images/post.jpg' alt='Post Malone'></a></section>";
                             }
                             $result->close();
                         }
@@ -107,13 +134,13 @@
                         $sql = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id LIKE '2'";
                         if ($result = $conn->query($sql)) {
                             while($row = $result->fetch_object()) {
-                                echo "<section class='aanbiedingen'><a href='detailsab.php?id=".$row->aanbiedingen_id."'><img src='images/can sugar free.png' alt='sugar free'></a></section>";
+                                echo "<section class='article-php'><a href='detailsab.php?id=".$row->aanbiedingen_id."'><img src='images/sugar free home.png' alt='sugar free'></a></section>";
                             }
                             $result->close();
                         }
                     ?> 
                 </article>
-                <article><img src="images/mercedes 1.png" alt="Mercedes F1"></article>
+                <article><img src="images/mercedes.png" alt="Mercedes F1"></article>
             </section>
         </section>
     </main>

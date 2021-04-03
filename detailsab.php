@@ -14,12 +14,35 @@
 </head>
 <body>
     <header>
-        <article id="logo">
-            <img src="images/logo.png" alt="Ekko">
+        <div class="menu-wrap">
+  		    <input type="checkbox" class="toggler">
+  		    <div class="hamburger">
+  			    <div>
+                </div>
+  		    </div>
+            <div class="menu">
+  			    <div>
+  				    <div>
+						<ul>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="#">Producten</a></li>
+                            <li><a href="#">Evenementen</a></li>
+                            <li><a href="#">Aanbiedingen</a></li>
+                            <li><a href="#">Over Ons</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+  				    </div>
+  			    </div>
+  		    </div>
+  	    </div>
+        <article class="logo">
+            <a href="index.php">
+                <img src="images/logo.png" alt="Ekko">
+            </a>
         </article>
         <nav id="navigatie">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="#">Producten</a></li>
                 <li><a href="#">Evenementen</a></li>
                 <li><a href="#">Aanbiedingen</a></li>
@@ -34,9 +57,8 @@
         $sql = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id=" . $_GET['id'];
         if ($result = $conn->query($sql)) {
             $row = $result->fetch_object();
-            echo "<section>" . $row->titel . "</section>";
-            echo "<section>" . $row->omschrijving . "</section>";
-            echo "<section>" . $row->afbeelding . "</section>";
+            echo "<section class='info-ab'>" . $row->titel . "</section>";
+            echo "<section class='info-ab'>" . $row->omschrijving . "</section>";
             $result->close();
         }
     ?>
