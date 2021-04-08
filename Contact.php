@@ -20,6 +20,7 @@
 
 <body>
 <header>
+<<<<<<< Updated upstream
         <div class="menu-wrap">
   		    <input type="checkbox" class="toggler">
   		    <div class="hamburger">
@@ -49,6 +50,14 @@
         <nav id="navigatie">
             <ul>
                 <li><a href="index.php">Home</a></li>
+=======
+        <article id="logo">
+            <img src="images/logo.png" alt="">
+        </article>
+        <nav id="navigatie">
+            <ul>
+                <li><a href="#">Home</a></li>
+>>>>>>> Stashed changes
                 <li><a href="#">Producten</a></li>
                 <li><a href="#">Evenementen</a></li>
                 <li><a href="#">Aanbiedingen</a></li>
