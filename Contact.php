@@ -115,8 +115,7 @@
 
       <section id="two">
         <section class="item-Strawberry">
-
-          <img class="item-Can" src="images/strawberry.png" alt="Strawberry Can">
+          <img class="item-Can" src="Images/strawberry.png" alt="Strawberry Can">
         </section>
 
         <section id="maps">
