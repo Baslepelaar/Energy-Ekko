@@ -18,6 +18,14 @@
     width: 2%;
     /* margin-top: 1vh; */
     margin-left: 30vw;
+  #logo{
+    height: 100px;
+    margin-left: 12vw;
+  }
+
+  .logo2{
+    height: 100px;
+    margin-left: 12vw;
   }
 
   .logo img{
@@ -572,6 +580,53 @@ iframe {
 
 .item-8{
   order: 8;
+    display: grid;
+    margin-top: 15vh;
+    margin-left: 13vw;
+    border: 1px solid #001E3C;
+    background-color: grey;
+    width: 30vw;
+    height: 45vh;
+  }
+
+.item-1{
+  text-align: center;
+}
+
+.item-2{
+  margin-left: 10.0vw;
+  border-radius: 20px;
+  width: 140px;
+}
+
+.item-3{
+  text-align: center;
+}
+
+.item-4{
+  margin-left: 10.0vw;;
+  border-radius: 20px;
+  width: 140px;
+}
+
+.item-5{
+  text-align: center;
+}
+
+.item-6{
+  margin-left: 10.0vw;;
+  border-radius: 20px;
+  width: 140px;
+}
+
+.item-7{
+  text-align: center;
+}
+
+.item-8{
+  margin-left: 10.0vw;
+  border-radius: 20px;
+  width: 142px;
 }
 
   td {
