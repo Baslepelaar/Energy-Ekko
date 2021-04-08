@@ -1,86 +1,72 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="language" content="nl">
-<meta name="description" content="">
+  <meta charset="UTF-8">
+  <meta http-equiv="language" content="nl">
+  <meta name="description" content="">
 
-<meta name="keywords" content="">
-<meta name="author" content="M. Baalbergen">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="">
+  <meta name="author" content="M. Baalbergen">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<title>Contact</title>
-<!-- Link naar stylesheet start -->    
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<!-- Link naar stylesheet eind -->        
+  <title>Contact</title>
+  <!-- Link naar stylesheet start -->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- Link naar stylesheet eind -->
 </head>
 
- 
+
 
 <body class="ContactBody">
-<header>
-        <div class="menu-wrap">
-  		    <input type="checkbox" class="toggler">
-  		    <div class="hamburger">
-  			    <div>
-                </div>
-  		    </div>
-            <div class="menu">
-  			    <div>
-  				    <div>
-						<ul>
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="product.php">Producten</a></li>
-                            <li><a href="#">Evenementen</a></li>
-                            <li><a href="#">Aanbiedingen</a></li>
-                            <li><a href="overons.html">Over Ons</a></li>
-                            <li><a href="contact.php">Contact</a></li>
-                        </ul>
-  				    </div>
-  			    </div>
-  		    </div>
-  	    </div>
-        <article class="logo">
-            <a href="index.php">
-                <img src="images/logo.png" alt="Ekko">
-            </a>
-        </article>
-        <nav id="navigatie">
-            <ul>
-                <li><a href="index.php">Home</a></li>
-<<<<<<< Updated upstream
-                <li><a href="product.php">Producten</a></li>
-=======
-=======
-        <article id="logo">
-            <img class="logo2" src="images/logo.png" alt="Logo">
-        </article>
-        <nav id="navigatie">
-            <ul>
-                <li><a href="#">Home</a></li>
->>>>>>> Stashed changes
-                <li><a href="#">Producten</a></li>
->>>>>>> Stashed changes
-                <li><a href="#">Evenementen</a></li>
-                <li><a href="#">Aanbiedingen</a></li>
-                <li><a href="overons.html">Over Ons</a></li>
-                <li><a href="contact.php">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler">
+      <div class="hamburger">
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="product.php">Producten</a></li>
+          <li><a href="#">Evenementen</a></li>
+          <li><a href="#">Aanbiedingen</a></li>
+          <li><a href="overons.html">Over Ons</a></li>
+          <li><a href="contact.php">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <article class="logo">
+      <a href="index.php">
+        <img src="images/logo.png" alt="Ekko">
+      </a>
+    </article>
+
+    <nav id="navigatie">
+      <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="product.php">Producten</a></li>
+        <li><a href="#">Producten</a></li>
+        <li><a href="#">Evenementen</a></li>
+        <li><a href="#">Aanbiedingen</a></li>
+        <li><a href="overons.html">Over Ons</a></li>
+        <li><a href="contact.php">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
 
-    <main>
+  <main>
 
-        
+
     <section id="flex-contact">
-        <form action="#" class="item-contact">
-          <h1 class="item-h1">Contact</h1>
+      <form action="#" class="item-contact">
+        <h1 class="item-h1">Contact</h1>
         <table>
-          
-          
-    
+
+
+
           <tr>
             <td class="item-1">Voornaam*</td>
           </tr>
@@ -93,66 +79,67 @@
             <td class="item-3">Achternaam*</td>
           </tr>
           <tr>
-            <td><input class="item-4" type="text" name="achternaam" placeholder=" Vul hier je achternaam in" pattern="[A-Z]{1}[a-z]+" required ></td>
+            <td><input class="item-4" type="text" name="achternaam" placeholder=" Vul hier je achternaam in" pattern="[A-Z]{1}[a-z]+" required></td>
           </tr>
 
 
           <tr>
-          <td class="item-5">Email adres*</td>
+            <td class="item-5">Email adres*</td>
           </tr>
           <tr>
             <td><input class="item-6" type="email" name="email" placeholder=" Vul hier je email adres in" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></td>
           </tr>
 
-          
+
           <tr>
             <td class="item-7">Opmerkingen*</td>
           </tr>
           <tr>
-              <td><input  class="item-8" type="text" name="opmerking" placeholder=" heeft u nog een opmerking?" required></td>
+            <td><textarea class="item-8" type="text" name="opmerking" placeholder=" heeft u nog een opmerking?" required></textarea></td>
           </tr>
-          
+
         </table>
 
-      
-    
-            <article class="voorwaarden">
-              <a href="#">Akkoord met privacy voorwaarden</a>
-    
-              <input type="checkbox" name="akkoord" value="akkoord" required>
-            </article>
-          <section>
-          <input class="item-button" type="button" value="verzenden">
-          
-          </section>
-        </form>
 
-        <section id="two">
+
+        <article class="voorwaarden">
+          <a href="#">Akkoord met privacy voorwaarden</a>
+
+          <input type="checkbox" name="akkoord" value="akkoord" required>
+        </article>
+        <section class="button-section">
+          <input class="item-button" type="button" value="verzenden">
+
+        </section>
+      </form>
+
+      <section id="two">
         <section class="item-Strawberry">
-        
-        <img class="item-Can" src="images/strawberry.png" alt="Strawberry Can">
+
+          <img class="item-Can" src="images/strawberry.png" alt="Strawberry Can">
         </section>
 
         <section id="maps">
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2448.332937167458!2d4.490215115761184!3d52.14645467974523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5c663d413a42f%3A0xcaddc0f3c590aca3!2smboRijnland!5e0!3m2!1snl!2snl!4v1606395383923!5m2!1snl!2snl%22" allowfullscreen>
-        </iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2448.332937167458!2d4.490215115761184!3d52.14645467974523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5c663d413a42f%3A0xcaddc0f3c590aca3!2smboRijnland!5e0!3m2!1snl!2snl!4v1606395383923!5m2!1snl!2snl%22" allowfullscreen>
+          </iframe>
         </section>
-        </section>
-        </section>
-        
-    </main>
+      </section>
+    </section>
+
+  </main>
 
 
-    <footer>
-        <article class="item-footer">
-          <p class="copyright">&copy; 2021 EKKO</p>
-          <p><a href="#">Contact</a></p>
-          <p><a href="#">Privacy</a></p>
-          <p><a href="#">Socials</a></p>
-      </article>
-      </footer>
+  <footer>
+    <article class="item-footer">
+      <p class="copyright">&copy; 2021 EKKO</p>
+      <p><a href="#">Contact</a></p>
+      <p><a href="#">Privacy</a></p>
+      <p><a href="#">Socials</a></p>
+    </article>
+  </footer>
 
-    
+
 </body>
+
 </html>

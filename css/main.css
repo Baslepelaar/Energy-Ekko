@@ -230,8 +230,8 @@
 
 .item-h1{
   margin-top: 3vh;
-  margin-left: 15vw;
   color: black;
+  text-align: center;
   }
 
 .item-contact{
@@ -536,7 +536,7 @@ iframe {
 
   .item-h1{
     margin-top: 3vh;
-    margin-left: 11vw;
+    text-align: center;
     color: black;
     }
 
@@ -581,13 +581,13 @@ iframe {
 
 .item-8{
   order: 8;
-    display: grid;
-    margin-top: 15vh;
-    margin-left: 13vw;
+    /* margin-top: 15vh; */
+    /* margin-left: 13vw; */
     border: 1px solid #001E3C;
     background-color: grey;
     width: 30vw;
-    height: 45vh;
+    /* height: 45vh; */
+    padding: 0.5em;
   }
 
 .item-1{
@@ -595,7 +595,6 @@ iframe {
 }
 
 .item-2{
-  margin-left: 10.0vw;
   border-radius: 20px;
   width: 140px;
 }
@@ -605,7 +604,6 @@ iframe {
 }
 
 .item-4{
-  margin-left: 10.0vw;;
   border-radius: 20px;
   width: 140px;
 }
@@ -615,7 +613,6 @@ iframe {
 }
 
 .item-6{
-  margin-left: 10.0vw;;
   border-radius: 20px;
   width: 140px;
 }
@@ -625,7 +622,6 @@ iframe {
 }
 
 .item-8{
-  margin-left: 10.0vw;
   border-radius: 20px;
   width: 142px;
 }
@@ -635,17 +631,13 @@ iframe {
   }
 
   .voorwaarden {
-    
-  }
-
-  .item-button{
-    
+      text-align: center;
   }
 
   .item-energyStrawberry {
     width: 200px;
     height: 200px;
-    margin-left: 70vw;
+    /* margin-left: 70vw; */
     position: absolute;
   }
 
@@ -672,7 +664,7 @@ iframe {
 #maps {
   width: 200px;
     height: 200px;
-    margin-left: 70vw;
+    /* margin-left: 70vw; */
 }
   #flex-product {
     display: flex;
@@ -715,14 +707,24 @@ iframe {
   flex-direction: row;
 }
 
-  .item-button{
-    margin-left: 12.5vw;
+  .button-section{
+    text-align: center;
   }
 
   #flex-contact {
     display: flex;
     
   }
+
+  #flex-contact table {
+    width: 100%;
+  }
+
+  #flex-contact table td {
+    text-align: center;
+  }
+
+
 
   .item-Can {
     width: 250px;
