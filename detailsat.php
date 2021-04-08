@@ -13,7 +13,7 @@
 	<title>Ekko Energy</title>
 </head>
 <body>
-    <header>
+<header>
         <div class="menu-wrap">
   		    <input type="checkbox" class="toggler">
   		    <div class="hamburger">
@@ -43,11 +43,11 @@
         <nav id="navigatie">
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="#">Producten</a></li>
+                <li><a href="product.php">Producten</a></li>
                 <li><a href="#">Evenementen</a></li>
                 <li><a href="#">Aanbiedingen</a></li>
-                <li><a href="#">Over Ons</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="overons.html">Over Ons</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
     </header>
