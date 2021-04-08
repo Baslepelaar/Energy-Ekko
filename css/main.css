@@ -164,9 +164,19 @@
   margin-top: 3vh;
 }
 
-.flex-text {
+.flex-product{
   display: flex;
-  
+  justify-content: space-evenly;
+}
+
+.flex-text{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-maps{
+  display: flex;
+  flex-direction: row;
 }
 
 }
