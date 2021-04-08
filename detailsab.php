@@ -51,17 +51,19 @@
             </ul>
         </nav>
     </header>
-    <?php
-        include 'core/dbconnect.php';
+    <section id="aanbieding">
+        <?php
+            include 'core/dbconnect.php';
 
-        $sql = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id=" . $_GET['id'];
-        if ($result = $conn->query($sql)) {
-            $row = $result->fetch_object();
-            echo "<section class='info-ab'>" . $row->titel . "</section>";
-            echo "<section class='info-ab'>" . $row->omschrijving . "</section>";
-            $result->close();
-        }
-    ?>
+            $sql = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id=" . $_GET['id'];
+            if ($result = $conn->query($sql)) {
+                $row = $result->fetch_object();
+                echo "<section class='info-ab'>" . $row->titel . "</section>";
+                echo "<section class='info-ab'>" . $row->omschrijving . "</section>";
+                $result->close();
+            }
+        ?>
+    </section>
     <footer>
         <article class="item-footer">
             <p class="copyright">2021 EKKO</p>

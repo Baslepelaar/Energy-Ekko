@@ -10,6 +10,7 @@
   header {
     background-image: url("../images/3 blikjes.png");
     height: 70vh;
+    width: 100%;
     background-position: center;
   }
 
@@ -179,10 +180,10 @@
   }
 
   #articles section article img {
-    width: 350px;
+    width: 300px;
     margin-top: 10vh;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    margin-left: 8vw;
+    /* margin-right: 4vw; */
   }
 
   .article-php {
@@ -352,11 +353,10 @@
   #h-drie-blikjes img:nth-child(3) {-ms-flex: 2; flex: 2;}
 
   /* details artiest */
-  .images-at {
-    width: 5%;
+  .images-at img{
+    width: 62%;
     margin-top: 3vh;
-    margin-left: 20vw;
-    position: relative;
+    margin-left: 15vw;
   }
 
   .info {
@@ -371,6 +371,11 @@
   .info-ab {
     margin-top: 3vh;
     margin-left: 2vw;
+  }
+
+  /* Aanbieding */
+  #aanbieding{
+    height: 70.7vh;
   }
 
 /* Footer */
@@ -399,6 +404,7 @@
     flex-direction: row;
     margin-top: 5vh;
     text-align: center;
+    position: relative;
     bottom:0;
     width:100%;
     height:75px;

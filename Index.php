@@ -36,6 +36,12 @@
   		    </div>
   	    </div>
 
+        <article class="logo">
+            <a href="index.php">
+                <img src="images/logo.png" alt="Ekko">
+            </a>
+        </article>
+
         <nav id="navigatie">
             <ul>
                 <li><a href="index.php">Home</a></li>
@@ -46,11 +52,6 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <article class="logo">
-            <a href="index.php">
-                <img src="images/logo.png" alt="Ekko">
-            </a>
-        </article>
     </header>
     <main>
         <article>
