@@ -18,6 +18,7 @@
     width: 2%;
     /* margin-top: 1vh; */
     margin-left: 30vw;
+  }
   #logo{
     height: 100px;
     margin-left: 12vw;
@@ -529,6 +530,7 @@ iframe {
     width: 90%;
     margin-bottom: 5vh;
   }
+<<<<<<< HEAD
 
   /* Contact page */
 
@@ -747,4 +749,6 @@ iframe {
     margin-top: 8vh;
     margin-left: 25vw;
   }
+=======
+>>>>>>> parent of 5b847bf (Merge branch 'master' of https://github.com/Baslepelaar/Energy-Ekko)
 }
