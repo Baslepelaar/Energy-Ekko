@@ -523,4 +523,45 @@
     height: 200px;
     margin-left: 70vw;
 }
+  #flex-product {
+    display: flex;
+    flex-direction: column;
+  }
+
+.Logo1 {
+  width: 300px;
+  height: 150px;
+  margin-left: 7vw;
+  margin-top: 9vh;
+}
+
+.Logo2 {
+  width: 300px;
+  height: 150px;
+  margin-left: 7vw;
+  margin-top: 3vh;
+}
+
+.Logo3 {
+  width: 300px;
+  height: 150px;
+  margin-left: 7vw;
+  margin-top: 3vh;
+}
+
+.flex-product{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-text{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-maps{
+  display: flex;
+  flex-direction: row;
+}
+
 }
