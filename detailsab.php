@@ -35,11 +35,13 @@
   			    </div>
   		    </div>
   	    </div>
+
         <article class="logo">
             <a href="index.php">
                 <img src="images/logo.png" alt="Ekko">
             </a>
         </article>
+
         <nav id="navigatie">
             <ul>
                 <li><a href="index.php">Home</a></li>
