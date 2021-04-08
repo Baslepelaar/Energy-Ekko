@@ -20,12 +20,35 @@
 
 <body>
 <header>
-        <article id="logo">
-            <img src="images/logo.png" alt="">
+        <div class="menu-wrap">
+  		    <input type="checkbox" class="toggler">
+  		    <div class="hamburger">
+  			    <div>
+                </div>
+  		    </div>
+            <div class="menu">
+  			    <div>
+  				    <div>
+						<ul>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="product.php">Producten</a></li>
+                            <li><a href="#">Evenementen</a></li>
+                            <li><a href="#">Aanbiedingen</a></li>
+                            <li><a href="overons.html">Over Ons</a></li>
+                            <li><a href="contact.php">Contact</a></li>
+                        </ul>
+  				    </div>
+  			    </div>
+  		    </div>
+  	    </div>
+        <article class="logo">
+            <a href="index.php">
+                <img src="images/logo.png" alt="Ekko">
+            </a>
         </article>
         <nav id="navigatie">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="#">Producten</a></li>
                 <li><a href="#">Evenementen</a></li>
                 <li><a href="#">Aanbiedingen</a></li>
