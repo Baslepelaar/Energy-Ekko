@@ -7,7 +7,7 @@
 /* telefoon */
 @media screen and (min-width: 100px) and (max-width:768.9px){
   /* Header */
-  header {
+  .mobile-background {
     background-image: url("../images/3 blikjes.png");
     height: 70vh;
     width: 100%;

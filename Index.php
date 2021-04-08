@@ -13,7 +13,8 @@
 	<title>Ekko Energy</title>
 </head>
 <body>
-<header>
+<section class="mobile-background">
+    <header>
         <div class="menu-wrap">
   		    <input type="checkbox" class="toggler">
   		    <div class="hamburger">
@@ -51,6 +52,7 @@
             </ul>
         </nav>
     </header>
+</section>
     <main>
         <article>
             <section id="h-drie-blikjes">

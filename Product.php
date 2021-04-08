@@ -19,7 +19,8 @@
  
 
 <body>
-<header>
+<section class="mobile-background">
+    <header>
         <div class="menu-wrap">
   		    <input type="checkbox" class="toggler">
   		    <div class="hamburger">
@@ -57,6 +58,7 @@
             </ul>
         </nav>
     </header>
+</section>
 
 
     <main>

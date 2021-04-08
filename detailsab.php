@@ -13,7 +13,8 @@
 	<title>Ekko Energy</title>
 </head>
 <body>
-<header>
+<section class="mobile-background">
+    <header>
         <div class="menu-wrap">
   		    <input type="checkbox" class="toggler">
   		    <div class="hamburger">
@@ -35,13 +36,11 @@
   			    </div>
   		    </div>
   	    </div>
-
         <article class="logo">
             <a href="index.php">
                 <img src="images/logo.png" alt="Ekko">
             </a>
         </article>
-
         <nav id="navigatie">
             <ul>
                 <li><a href="index.php">Home</a></li>
@@ -53,6 +52,7 @@
             </ul>
         </nav>
     </header>
+</section>
     <section id="aanbieding">
         <?php
             include 'core/dbconnect.php';

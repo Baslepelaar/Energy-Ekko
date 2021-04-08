@@ -19,7 +19,8 @@
  
 
 <body class="ContactBody">
-<header>
+<section class="mobile-background">
+    <header>
         <div class="menu-wrap">
   		    <input type="checkbox" class="toggler">
   		    <div class="hamburger">
@@ -49,19 +50,7 @@
         <nav id="navigatie">
             <ul>
                 <li><a href="index.php">Home</a></li>
-<<<<<<< Updated upstream
                 <li><a href="product.php">Producten</a></li>
-=======
-=======
-        <article id="logo">
-            <img class="logo2" src="images/logo.png" alt="Logo">
-        </article>
-        <nav id="navigatie">
-            <ul>
-                <li><a href="#">Home</a></li>
->>>>>>> Stashed changes
-                <li><a href="#">Producten</a></li>
->>>>>>> Stashed changes
                 <li><a href="#">Evenementen</a></li>
                 <li><a href="#">Aanbiedingen</a></li>
                 <li><a href="overons.html">Over Ons</a></li>
@@ -69,6 +58,7 @@
             </ul>
         </nav>
     </header>
+</section>
 
 
     <main>
