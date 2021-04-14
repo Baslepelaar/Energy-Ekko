@@ -61,7 +61,7 @@
       width: 60%;
       height: 3px;
       border-radius: 1.5px;
-      background-color: #001E3C;
+      background-color: white;
       transition: .4s;
     }
 
@@ -71,7 +71,7 @@
       width: 100%;
       height: 3px;
       border-radius: 1.5px;
-      background-color: #001E3C;
+      background-color: white;
       top: -10px;
       left: 0;
       transition: .4s;
@@ -83,7 +83,7 @@
       width: 100%;
       height: 3px;
       border-radius: 1.5px;
-      background-color: #001E3C;
+      background-color: white;
       top: 10px;
       left: 0;
       transition: .4s;
