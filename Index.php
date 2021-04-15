@@ -7,7 +7,7 @@
 	<meta name="description" content="Ekke Energy is een ">
 	<meta name="author" content="Bas Lepelaar">
 	<meta name="keywords" content="">
-	
+
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 
 	<title>Ekko Energy</title>
@@ -24,14 +24,14 @@
             <div class="menu">
   			    <div>
   				    <div>
-						<ul>
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="product.php">Producten</a></li>
-                            <li><a href="#">Evenementen</a></li>
-                            <li><a href="aanbiedingen.php">Aanbiedingen</a></li>
-                            <li><a href="over-ons.php">Over Ons</a></li>
-                            <li><a href="contact.php">Contact</a></li>
-                        </ul>
+								<ul>
+									<li><a href="index.php">Home</a></li>
+									<li><a href="product.php">Producten</a></li>
+									<li><a href="#">Evenementen</a></li>
+									<li><a href="aanbiedingen.php">Aanbiedingen</a></li>
+									<li><a href="over-ons.php">Over Ons</a></li>
+									<li><a href="contact.php">Contact</a></li>
+								</ul>
   				    </div>
   			    </div>
   		    </div>
@@ -61,7 +61,7 @@
                 <img src="images/can sugar free home.png" alt="Sugar Free">
             </section>
             <section>
-                
+
             </section>
         </article>
 
@@ -87,7 +87,7 @@
         <section id="articles">
             <section>
                 <article>
-                    <?php 
+                    <?php
                         include 'core/dbconnect.php';
 
                         $sql = "SELECT * FROM artiesten WHERE artiest_id LIKE '122'";
@@ -101,7 +101,7 @@
                 </article>
                 <article><img src="images/ultra choco home.png" alt="Ultrachoco"></article>
                 <article>
-                    <?php 
+                    <?php
                         include 'core/dbconnect.php';
 
                         $sql = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id LIKE '1'";
@@ -111,12 +111,12 @@
                             }
                             $result->close();
                         }
-                    ?> 
+                    ?>
                 </article>
             </section>
             <section>
                 <article>
-                    <?php 
+                    <?php
                         include 'core/dbconnect.php';
 
                         $sql = "SELECT * FROM artiesten WHERE artiest_id LIKE '103'";
@@ -129,7 +129,7 @@
                     ?>
                 </article>
                 <article>
-                    <?php 
+                    <?php
                         include 'core/dbconnect.php';
 
                         $sql = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id LIKE '2'";
@@ -139,7 +139,7 @@
                             }
                             $result->close();
                         }
-                    ?> 
+                    ?>
                 </article>
                 <article><img src="images/mercedes.png" alt="Mercedes F1"></article>
             </section>
@@ -170,15 +170,15 @@
     var i;
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}    
+    if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
+        slides[i].style.display = "none";
     }
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
-    slides[slideIndex-1].style.display = "block";  
+    slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
   }
     </script>
