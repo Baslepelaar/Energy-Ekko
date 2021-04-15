@@ -11,12 +11,12 @@
 
 
 <title>Contact</title>
-<!-- Link naar stylesheet start -->    
+<!-- Link naar stylesheet start -->
 <link rel="stylesheet" type="text/css" href="css/main.css">
-<!-- Link naar stylesheet eind -->        
+<!-- Link naar stylesheet eind -->
 </head>
 
- 
+
 
 <body>
 <header>
@@ -51,8 +51,8 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="product.php">Producten</a></li>
                 <li><a href="#">Evenementen</a></li>
-                <li><a href="#">Aanbiedingen</a></li>
-                <li><a href="overons.html">Over Ons</a></li>
+                <li><a href="aanbiedingen.php">Aanbiedingen</a></li>
+                <li><a href="over-ons.php">Over Ons</a></li>
                 <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
@@ -84,7 +84,7 @@
     </section>
     </section>
     </section>
-      
+
 
     </main>
 
@@ -98,6 +98,6 @@
       </article>
       </footer>
 
-    
+
 </body>
 </html>
