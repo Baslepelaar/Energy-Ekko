@@ -12,6 +12,9 @@
   </head>
   <body>
     <header>
+      <section id="header">
+
+
       <div class="menu-wrap">
         <input type="checkbox" class="toggler">
         <div class="hamburger">
@@ -46,6 +49,7 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+          </section>
     </header>
     <main>
     <section class="o-main-tekst">
@@ -68,7 +72,7 @@
     </section>
     <section class="o-main-tekst">
       <article class="o-afbeelding">
-        <img src="images/strawberry.png" alt="Een afbeelding van een EKKO energy drink" height="150px;">
+        <img src="images/strawberry.png" alt="Een o-afbeelding van de eigenaar van EKKO energy drink" height="150px;">
       </article>
       <article class="o-tekst">
         <h2>Geschiedenis</h2>
