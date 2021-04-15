@@ -7,6 +7,11 @@
 /* telefoon */
 @media screen and (min-width: 100px) and (max-width:768.9px){
   /* Header */
+  header {
+    background-color: #001E3C;
+    width: 100%;
+    display: flex;
+  }
   .mobile-background {
     background-image: url("../images/3 blikjes.png");
     height: 70vh;
@@ -26,7 +31,6 @@
   }
   #logo{
     height: 100px;
-    margin-left: 12vw;
   }
 
   .logo2{
@@ -519,6 +523,18 @@ iframe {
   }
 
   .logo img{
+    height: 65px;
+  }
+
+  #logo {
+    width: 20%;
+    justify-content: flex-start;
+    margin-left: 12vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+
+  #logo img{
     height: 65px;
   }
 
