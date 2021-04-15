@@ -2,6 +2,7 @@
 <html lang="en" >
 <head>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <meta charset="UTF-8">
   <title>aanbiedingen</title>
   <link rel="stylesheet" href="./main.css">
@@ -9,6 +10,8 @@
 </head>
 
 =======
+=======
+>>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
   <meta charset="utf-8">
   <meta http-equiv="language" content="nl">
   <meta name="viewport" content="width=device-width, intial-scale=1">
@@ -18,6 +21,9 @@
   <title>Aanbiedingen</title>
   <link rel="stylesheet" href="./main.css">
 </head>
+<<<<<<< HEAD
+>>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
+=======
 >>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
 <body>
   <header>
@@ -26,7 +32,11 @@
         <div class="hamburger">
           <div>
 <<<<<<< HEAD
+<<<<<<< HEAD
               </div>
+=======
+            </div>
+>>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
 =======
             </div>
 >>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
@@ -36,6 +46,7 @@
             <div>
           <ul>
 <<<<<<< HEAD
+<<<<<<< HEAD
                           <li><a href="index.php">Home</a></li>
                           <li><a href="product.php">Producten</a></li>
                           <li><a href="#">Evenementen</a></li>
@@ -44,6 +55,8 @@
                           <li><a href="contact.php">Contact</a></li>
                       </ul>
 =======
+=======
+>>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
             <li><a href="index.php">Home</a></li>
             <li><a href="product.php">Producten</a></li>
             <li><a href="#">Evenementen</a></li>
@@ -51,6 +64,9 @@
             <li><a href="overons.php">Over Ons</a></li>
             <li><a href="contact.php">Contact</a></li>
           </ul>
+<<<<<<< HEAD
+>>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
+=======
 >>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
             </div>
           </div>
@@ -62,6 +78,7 @@
     <nav id="navigatie">
         <ul>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <li><a href="#">Home</a></li>
             <li><a href="#">Producten</a></li>
             <li><a href="#">Evenementen</a></li>
@@ -69,12 +86,17 @@
             <li><a href="#">Over Ons</a></li>
             <li><a href="#">Contact</a></li>
 =======
+=======
+>>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
           <li><a href="#">Home</a></li>
           <li><a href="#">Producten</a></li>
           <li><a href="#">Evenementen</a></li>
           <li><a href="#">Aanbiedingen</a></li>
           <li><a href="#">Over Ons</a></li>
           <li><a href="#">Contact</a></li>
+<<<<<<< HEAD
+>>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
+=======
 >>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
         </ul>
     </nav>
@@ -84,7 +106,10 @@
   <div class='slider'>
    <button type="button" id='right' class='right' name="button">
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
 =======
 >>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
        <svg version="1.1" id="Capa_1" width='40px' height='40px ' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -95,9 +120,13 @@
           "/>
        </g>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
        </svg>
 
+=======
+       </svg>
+>>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
 =======
        </svg>
 >>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
@@ -151,7 +180,11 @@
 
 </body>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!-- partial -->
+=======
+
+>>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
 =======
 
 >>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
