@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
+<<<<<<< HEAD
   <meta charset="UTF-8">
   <title>aanbiedingen</title>
   <link rel="stylesheet" href="./main.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
+=======
+  <meta charset="utf-8">
+  <meta http-equiv="language" content="nl">
+  <meta name="viewport" content="width=device-width, intial-scale=1">
+  <meta name="description" content="hier kan je de aanbiedingen vinden van de nergy drankjes">
+  <meta name="author" content="L. Adel">
+  <meta name="keywords" content="energy drink, energie drank, aanbiedingen, EKKO">
+  <title>Aanbiedingen</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+>>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
 <body>
   <header>
     <div class="menu-wrap">
         <input type="checkbox" class="toggler">
         <div class="hamburger">
           <div>
+<<<<<<< HEAD
               </div>
+=======
+            </div>
+>>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
         </div>
           <div class="menu">
           <div>
             <div>
           <ul>
+<<<<<<< HEAD
                           <li><a href="index.php">Home</a></li>
                           <li><a href="product.php">Producten</a></li>
                           <li><a href="#">Evenementen</a></li>
@@ -26,6 +43,15 @@
                           <li><a href="overons.php">Over Ons</a></li>
                           <li><a href="contact.php">Contact</a></li>
                       </ul>
+=======
+            <li><a href="index.php">Home</a></li>
+            <li><a href="product.php">Producten</a></li>
+            <li><a href="#">Evenementen</a></li>
+            <li><a href="#">Aanbiedingen</a></li>
+            <li><a href="overons.php">Over Ons</a></li>
+            <li><a href="contact.php">Contact</a></li>
+          </ul>
+>>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
             </div>
           </div>
         </div>
@@ -35,12 +61,21 @@
     </article>
     <nav id="navigatie">
         <ul>
+<<<<<<< HEAD
             <li><a href="#">Home</a></li>
             <li><a href="#">Producten</a></li>
             <li><a href="#">Evenementen</a></li>
             <li><a href="#">Aanbiedingen</a></li>
             <li><a href="#">Over Ons</a></li>
             <li><a href="#">Contact</a></li>
+=======
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Producten</a></li>
+          <li><a href="#">Evenementen</a></li>
+          <li><a href="#">Aanbiedingen</a></li>
+          <li><a href="#">Over Ons</a></li>
+          <li><a href="#">Contact</a></li>
+>>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
         </ul>
     </nav>
 </header>
@@ -48,7 +83,10 @@
  <div class='parent'>
   <div class='slider'>
    <button type="button" id='right' class='right' name="button">
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
        <svg version="1.1" id="Capa_1" width='40px' height='40px ' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
          viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
        <g>
@@ -56,9 +94,13 @@
           c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z
           "/>
        </g>
+<<<<<<< HEAD
 
        </svg>
 
+=======
+       </svg>
+>>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
        </button>
    <button type="button" id='left' class='left' name="button">
        <svg version="1.1" id="Capa_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -108,7 +150,11 @@
 </footer>
 
 </body>
+<<<<<<< HEAD
 <!-- partial -->
+=======
+
+>>>>>>> parent of fff5a1f (Revert "Merge branch 'aanbiedingen'")
   <script  src="js/script.js"></script>
 
 </body>
