@@ -505,7 +505,7 @@ iframe {
 /* desktop */
 @media screen and (min-width: 769px) {
   /* header */
-  #header {
+  header {
     background-color: #001E3C;
     width: 100%;
     display: flex;
