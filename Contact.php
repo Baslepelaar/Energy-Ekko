@@ -49,13 +49,6 @@
         <nav id="navigatie">
             <ul>
                 <li><a href="index.php">Home</a></li>
-=======
-        <article id="logo">
-            <img class="logo2" src="images/logo.png" alt="Logo">
-        </article>
-        <nav id="navigatie">
-            <ul>
-                <li><a href="index.php">Home</a></li>
                 <li><a href="product.php">Producten</a></li>
                 <li><a href="#">Evenementen</a></li>
                 <li><a href="aanbiedingen.php">Aanbiedingen</a></li>
