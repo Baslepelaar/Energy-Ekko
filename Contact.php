@@ -30,12 +30,12 @@
   			    <div>
   				    <div>
 						<ul>
-                            <li><a href="index.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
                             <li><a href="product.php">Producten</a></li>
                             <li><a href="#">Evenementen</a></li>
-                            <li><a href="#">Aanbiedingen</a></li>
-                            <li><a href="overons.html">Over Ons</a></li>
-                            <li><a href="contact.php">Contact</a></li>
+                            <li><a href="aanbiedingen.php">Aanbiedingen</a></li>
+                            <li><a href="over-ons.php">Over Ons</a></li>
+                            <li><a href="contact.php">Contact</a></li>>
                         </ul>
   				    </div>
   			    </div>
@@ -55,13 +55,12 @@
         </article>
         <nav id="navigatie">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Producten</a></li>
->>>>>>> Stashed changes
-                <li><a href="#">Evenementen</a></li>
-                <li><a href="#">Aanbiedingen</a></li>
-                <li><a href="overons.html">Over Ons</a></li>
-                <li><a href="contact.php">Contact</a></li>
+            <li><a href="index.php">Home</a></li>
+                            <li><a href="product.php">Producten</a></li>
+                            <li><a href="#">Evenementen</a></li>
+                            <li><a href="aanbiedingen.php">Aanbiedingen</a></li>
+                            <li><a href="over-ons.php">Over Ons</a></li>
+                            <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
     </header>
