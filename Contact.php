@@ -11,12 +11,12 @@
 
 
 <title>Contact</title>
-<!-- Link naar stylesheet start -->    
+<!-- Link naar stylesheet start -->
 <link rel="stylesheet" type="text/css" href="css/main.css">
-<!-- Link naar stylesheet eind -->        
+<!-- Link naar stylesheet eind -->
 </head>
 
- 
+
 
 <body class="ContactBody">
 <header>
@@ -55,12 +55,12 @@
         </article>
         <nav id="navigatie">
             <ul>
-            <li><a href="index.php">Home</a></li>
-                            <li><a href="product.php">Producten</a></li>
-                            <li><a href="#">Evenementen</a></li>
-                            <li><a href="aanbiedingen.php">Aanbiedingen</a></li>
-                            <li><a href="over-ons.php">Over Ons</a></li>
-                            <li><a href="contact.php">Contact</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="product.php">Producten</a></li>
+                <li><a href="#">Evenementen</a></li>
+                <li><a href="aanbiedingen.php">Aanbiedingen</a></li>
+                <li><a href="over-ons.php">Over Ons</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -68,14 +68,14 @@
 
     <main>
 
-        
+
     <section id="flex-contact">
         <form action="#" class="item-contact">
           <h1 class="item-h1">Contact</h1>
         <table>
-          
-          
-    
+
+
+
           <tr>
             <td class="item-1">Voornaam*</td>
           </tr>
@@ -99,32 +99,32 @@
             <td><input class="item-6" type="email" name="email" placeholder=" Vul hier je email adres in" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></td>
           </tr>
 
-          
+
           <tr>
             <td class="item-7">Opmerkingen*</td>
           </tr>
           <tr>
               <td><input  class="item-8" type="text" name="opmerking" placeholder=" heeft u nog een opmerking?" required></td>
           </tr>
-          
+
         </table>
 
-      
-    
+
+
             <article class="voorwaarden">
               <a href="#">Akkoord met privacy voorwaarden</a>
-    
+
               <input type="checkbox" name="akkoord" value="akkoord" required>
             </article>
           <section>
           <input class="item-button" type="button" value="verzenden">
-          
+
           </section>
         </form>
 
         <section id="two">
         <section class="item-Strawberry">
-        
+
         <img class="item-Can" src="images/strawberry.png" alt="Strawberry Can">
         </section>
 
@@ -135,7 +135,7 @@
         </section>
         </section>
         </section>
-        
+
     </main>
 
 
@@ -148,6 +148,6 @@
       </article>
       </footer>
 
-     
+
 </body>
 </html>
