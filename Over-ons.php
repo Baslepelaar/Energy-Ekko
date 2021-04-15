@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="L. Adel">
     <meta name="keywords" content="">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/main2.css">
     <title>Over Ons</title>
   </head>
   <body>
